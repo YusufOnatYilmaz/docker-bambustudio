@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.tmp
+
+# Documentation (not needed in image)
+README.md
+CHANGELOG.md
+docs/
+
+# Original linuxserver files (not needed for headless)
+root/
+
+# Test files (except tumor.stl which we copy explicitly)
+# test_files/
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore

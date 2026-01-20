@@ -1,0 +1,22 @@
+{
+  "name": "bambu-slicer-api",
+  "version": "2.0.0",
+  "description": "Headless BambuStudio Slicer API for automated G-code generation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "3d-hub",
+  "license": "MIT"
+}
